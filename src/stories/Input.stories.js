@@ -1,19 +1,19 @@
-import React from 'react';
+// import React from 'react';
 
-import Input from './Input';
+// import Input from './Input';
 
-export default {
-  title: 'Example/Input',
-  component: Input,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
-};
+// export default {
+//   title: 'Example/Input',
+//   component: Input,
+//   argTypes: {
+//     backgroundColor: { control: 'color' },
+//   },
+// };
 
-const Template = (args) => <Input {...args} />;
+// const Template = (args) => <Input {...args} />;
 
-export const Primary = Template.bind({});
-Primary.args = {
-  primary: true,
-  label: 'Input',
-};
+// export const Primary = Template.bind({});
+// Primary.args = {
+//   primary: true,
+//   label: 'Input',
+// };
