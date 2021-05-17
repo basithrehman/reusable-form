@@ -5,7 +5,7 @@ import './Input.css';
 /**
  * Primary UI component for user interaction
  */
- class Input extends React.PureComponent {
+export default class Input extends React.PureComponent {
   constructor(props) {
     super(props);
 
@@ -141,6 +141,3 @@ Input.defaultProps = {
   handleOnInputChange: () => {/* Empty func */},
   customValidation: () => {return '';}
 };
-
-
-export default Input;

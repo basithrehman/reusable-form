@@ -156,6 +156,7 @@ var Input = /*#__PURE__*/function (_React$PureComponent) {
   return Input;
 }(_react["default"].PureComponent);
 
+exports["default"] = Input;
 ;
 Input.propTypes = {
   name: _propTypes["default"].string.isRequired,
@@ -187,5 +188,3 @@ Input.defaultProps = {
     return '';
   }
 };
-var _default = Input;
-exports["default"] = _default;
