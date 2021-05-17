@@ -18,7 +18,7 @@ Object.defineProperty(exports, "Button", {
 Object.defineProperty(exports, "Input", {
   enumerable: true,
   get: function get() {
-    return _Input.Input;
+    return _Input["default"];
   }
 });
 
@@ -26,6 +26,6 @@ var _Badge = _interopRequireDefault(require("./components/Badge"));
 
 var _Button = _interopRequireDefault(require("./components/Button"));
 
-var _Input = require("./components/Input");
+var _Input = _interopRequireDefault(require("./components/Input"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
