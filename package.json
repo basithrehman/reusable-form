@@ -50,6 +50,14 @@
         "rules": {
           "import/no-anonymous-default-export": "off"
         }
+      },
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
       }
     ]
   },
@@ -68,6 +76,12 @@
   "devDependencies": {
     "@babel/cli": "^7.13.16",
     "@babel/core": "^7.12.17",
-    "@babel/preset-env": "^7.12.17"
+    "@babel/preset-env": "^7.12.17",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/node-logger": "^6.2.9",
+    "@storybook/preset-create-react-app": "^3.1.7",
+    "@storybook/react": "^6.2.9"
   }
 }
