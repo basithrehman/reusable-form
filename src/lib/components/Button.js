@@ -1,7 +1,9 @@
 import React from 'react';
+import './Input.css';
+
 const Button = (props) => {
    return (
-      <button className={`btn btn--${props.kind} CTA`}
+      <button className="btn"
         data-id={props.id}
         type={props.type}
         name={props.name}
