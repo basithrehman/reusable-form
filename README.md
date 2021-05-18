@@ -32,3 +32,6 @@ This is a drop down field
   options={options}
 />
 ```
+
+#### EXAMPLE
+Refer this repor for example implementation [repo](https://https://github.com/basithrehman/testing-reusable-form/edit/master/README.md).
