@@ -13,7 +13,7 @@ The repo uses rollup for generating exportable components and storybook for crea
 
 #### Usage
 - Install the package via npm 
-```
+
 npm install git+https://github.com:basithrehman/reusable-form.git --save
 
 ### Input
