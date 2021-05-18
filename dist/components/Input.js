@@ -141,15 +141,19 @@ var Input = /*#__PURE__*/function (_React$PureComponent) {
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("input", {
-        name: this.props.name // css={[input_styles, this.state.error.enabled ? input_error_style : null]}
-        ,
+      return /*#__PURE__*/_react["default"].createElement("div", {
+        className: "wrapper"
+      }, /*#__PURE__*/_react["default"].createElement("input", {
+        name: this.props.name,
+        className: "input",
         type: this.props.type,
         value: this.state.value,
         placeholder: this.props.placeholder,
         onChange: this.handleUserInput.bind(this),
         required: this.props.required
-      }), /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("div", null, this.state.error.enabled ? this.state.error.message : this.props.help_text ? this.props.help_text : '')));
+      }), /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("div", {
+        className: "grid"
+      }, this.state.error.enabled ? this.state.error.message : this.props.help_text ? this.props.help_text : '')));
     }
   }]);
 

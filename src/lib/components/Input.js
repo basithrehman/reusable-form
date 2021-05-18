@@ -100,10 +100,10 @@ export default class Input extends React.PureComponent {
 
   render() {
     return (
-      <div>
+      <div className="wrapper">
         <input
           name={this.props.name}
-          // css={[input_styles, this.state.error.enabled ? input_error_style : null]}
+          className="input"
           type={this.props.type}
           value={this.state.value}
           placeholder={this.props.placeholder}
@@ -113,7 +113,7 @@ export default class Input extends React.PureComponent {
         </input>
 
         <div>
-          <div>
+          <div className="grid">
             {
               this.state.error.enabled ? this.state.error.message : (
                 this.props.help_text ? this.props.help_text : ''
