@@ -11,8 +11,13 @@
 
 The repo uses rollup for generating exportable components and storybook for creating a UI for references.
 
+#### Usage
+- Install the package via npm 
+```
+npm install git+https://github.com:basithrehman/reusable-form.git --save
+
 ### Input
-This is a input field with allowed types as text, number and email.
+This is a input field with allowed types as number and email.
 
 #### Usage
 ```
