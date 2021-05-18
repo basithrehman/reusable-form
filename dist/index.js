@@ -22,8 +22,6 @@ Object.defineProperty(exports, "Input", {
   }
 });
 
-var _Badge = _interopRequireDefault(require("./components/Badge"));
-
 var _Button = _interopRequireDefault(require("./components/Button"));
 
 var _SingleSelect = _interopRequireDefault(require("./components/SingleSelect"));

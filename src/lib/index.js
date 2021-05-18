@@ -1,4 +1,3 @@
-import Badge from './components/Badge';
 import Button from './components/Button';
 import SingleSelect from './components/SingleSelect';
 
