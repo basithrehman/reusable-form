@@ -100,16 +100,28 @@ export default class Input extends React.PureComponent {
 
   render() {
     return (
-      <input
-      name={this.props.name}
-      // css={[input_styles, this.state.error.enabled ? input_error_style : null]}
-      type={this.props.type}
-      value={this.state.value}
-      placeholder={this.props.placeholder}
-      onChange={this.handleUserInput.bind(this)}
-      required={this.props.required}
-      >
-      </input>
+      <div>
+        <input
+          name={this.props.name}
+          // css={[input_styles, this.state.error.enabled ? input_error_style : null]}
+          type={this.props.type}
+          value={this.state.value}
+          placeholder={this.props.placeholder}
+          onChange={this.handleUserInput.bind(this)}
+          required={this.props.required}
+          >
+        </input>
+
+        <div>
+          <div css={[grid_styles, this.state.error.enabled ? error_text_style : null]}>
+            {
+              this.state.error.enabled ? this.state.error.message : (
+                this.props.help_text ? this.props.help_text : ''
+              )
+            }
+          </div>
+        </div>
+      </div>
     );
   }
 };
