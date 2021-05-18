@@ -15,6 +15,12 @@ Object.defineProperty(exports, "Button", {
     return _Button["default"];
   }
 });
+Object.defineProperty(exports, "SingleSelect", {
+  enumerable: true,
+  get: function get() {
+    return _SingleSelect["default"];
+  }
+});
 Object.defineProperty(exports, "Input", {
   enumerable: true,
   get: function get() {
@@ -25,6 +31,8 @@ Object.defineProperty(exports, "Input", {
 var _Badge = _interopRequireDefault(require("./components/Badge"));
 
 var _Button = _interopRequireDefault(require("./components/Button"));
+
+var _SingleSelect = _interopRequireDefault(require("./components/SingleSelect"));
 
 var _Input = _interopRequireDefault(require("./components/Input"));
 

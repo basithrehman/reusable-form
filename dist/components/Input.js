@@ -149,9 +149,7 @@ var Input = /*#__PURE__*/function (_React$PureComponent) {
         placeholder: this.props.placeholder,
         onChange: this.handleUserInput.bind(this),
         required: this.props.required
-      }), /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("div", {
-        css: [grid_styles, this.state.error.enabled ? error_text_style : null]
-      }, this.state.error.enabled ? this.state.error.message : this.props.help_text ? this.props.help_text : '')));
+      }), /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("div", null, this.state.error.enabled ? this.state.error.message : this.props.help_text ? this.props.help_text : '')));
     }
   }]);
 

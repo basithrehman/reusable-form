@@ -113,7 +113,7 @@ export default class Input extends React.PureComponent {
         </input>
 
         <div>
-          <div css={[grid_styles, this.state.error.enabled ? error_text_style : null]}>
+          <div>
             {
               this.state.error.enabled ? this.state.error.message : (
                 this.props.help_text ? this.props.help_text : ''
