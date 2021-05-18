@@ -13,17 +13,21 @@ export default {
 const Template = (args) =>  (
  <div>
    <div>
-    <span style={{paddingLeft: '20px', fontSize: '16px'}}>Number Input</span>
+    <span>Number Input</span>
+    <div style={{marginTop: '10px'}}>
     <Input
     type="number"
     help_text="Input can only be numbers" placeholder="Enter Number"/>
+    </div>
  </div>
 
- <div>
-    <span style={{paddingLeft: '20px', fontSize: '16px'}}>Email Input</span>
+ <div style={{marginTop: '20px'}}>
+    <span>Email Input</span>
+    <div style={{marginTop: '10px'}}>
     <Input
     type="email"
     help_text="Input can only be an email" placeholder="Enter Email"/>
+    </div>
  </div>
  </div>
 );

@@ -6,4 +6,5 @@ const SingleSelect = (props) => {
     <Select options={props.options} />
    )
 }
+
 export default SingleSelect;
